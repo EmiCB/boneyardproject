@@ -1,12 +1,20 @@
 /*Background*/
 body {
 	background: #33ccff; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(-90deg, #ccccff, #9fe09f, #ffffcc); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(-90deg, #ccccff, #9fe09f, #ffffcc); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(-90deg, #ccccff, #9fe09f, #ffffcc); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(-90deg, #ccccff, #9fe09f, #ffffcc); /* Standard syntax */
+	
+	font-family: 'Roboto', sans-serif;
+}
+
+#codeholder {
+	background: #33ccff; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(-90deg, #33ccff, white); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(-90deg, #33ccff, white); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(-90deg, #33ccff, white); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(-90deg, #33ccff, white); /* Standard syntax */
-	
-	font-family: 'Roboto', sans-serif;
 }
 
 /* Nav Bar */
@@ -38,3 +46,44 @@ body {
 	font-size: 28px;
 	text-decoration: none;
 }
+
+/* Content */
+#hometext {
+	background-color: rgba(255,255,255,.7);
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 20px;
+	padding: 30px;
+	border-radius: 30px;
+	width: 65%;
+	height: auto;
+	
+	font-size: 20px;
+}
+#credits {
+	background-color: rgba(255,255,255,.7);
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 20px;
+	padding: 30px;
+	border-radius: 30px;
+	width: 65%;
+	height: auto;
+	
+	font-size: 20px;
+}
+#references {
+	background-color: rgba(255,255,255,.7);
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 20px;
+	padding: 30px;
+	border-radius: 30px;
+	width: 65%;
+	height: auto;
+	
+	font-size: 20px;
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
