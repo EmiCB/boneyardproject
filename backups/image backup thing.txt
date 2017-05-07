@@ -1,0 +1,13 @@
+			<div class="images">
+				<img class = "mySlides" src = "_images/photos/boneyard1_emi.jpg">
+				<div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">by Emi</div>
+				
+				<img class = "mySlides" src = "_images/photos/boneyard2_emi.jpg">
+				
+				<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+			</div>
+				
+			
+			
+			<script src="slideshow.js"></script>

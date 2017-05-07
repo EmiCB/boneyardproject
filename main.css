@@ -87,9 +87,8 @@ body {
 .mySlides {
 	display:none;
 	margin: auto;
-	margin-top: 3%;
-    width: 50%;
-	border-radius: 40px;
+	margin-top: 6%;
+    width: 70%;
 }
 .w3-left, .w3-right, .w3-badge {
 	cursor:pointer
@@ -99,3 +98,4 @@ body {
 	width:13px;
 	padding:0
 }
+
