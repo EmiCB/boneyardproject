@@ -84,6 +84,18 @@ body {
 	
 	font-size: 20px;
 }
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
+.mySlides {
+	display:none;
+	margin: auto;
+	margin-top: 3%;
+    width: 50%;
+	border-radius: 40px;
+}
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer
+}
+.w3-badge {
+	height:13px;
+	width:13px;
+	padding:0
+}
