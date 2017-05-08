@@ -9,6 +9,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+/* save */
 #codeholder {
 	background: #33ccff; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(-90deg, #33ccff, white); /* For Safari 5.1 to 6.0 */
@@ -85,7 +86,7 @@ body {
 	font-size: 20px;
 }
 .mySlides {
-	display:none;
+	display: none;
 	margin: auto;
 	margin-top: 3.5%;
     width: 70%;
@@ -94,8 +95,9 @@ body {
 	cursor:pointer
 }
 .w3-badge {
-	height:13px;
-	width:13px;
-	padding:0
+	height: 13px;
+	width: 13px;
+	padding: 0;
 }
+
 
