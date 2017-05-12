@@ -121,10 +121,10 @@ body {
 	z-index: 100;
 	position: absolute;
 	color: black;
-	font-size: 16px;
+	font-size: 2vmin;
 	font-weight: bold;
 	left: 5%;
-	top: 1%;
+	top: -7%;
 }
 p.small {
 	line-height: 50%;
@@ -134,4 +134,5 @@ p.small {
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
     transform: rotate(180deg);
 }
+
 
