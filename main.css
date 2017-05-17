@@ -78,6 +78,7 @@ body {
 	margin-left: 15%;
 	margin-right: 15%;
 	margin-top: 20px;
+	margin-bottom: 5%;
 	padding: 30px;
 	border-radius: 30px;
 	width: 65%;
@@ -99,6 +100,29 @@ body {
 	width: 13px;
 	padding: 0;
 }
+.transparent {
+	opacity: 0.35;
+    filter: alpha(opacity=35); /* For IE8 and earlier */
+}
+#text {
+	z-index: 100;
+	position: absolute;
+	color: black;
+	font-size: 2.3vmin;
+	font-weight: bold;
+	left: 5%;
+	top: -7%;
+}
+p.small {
+	line-height: 50%;
+}
+.flip {
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+/* Map */
 .map {
 	margin-left: 25%;
 	margin-right: 25%;
@@ -113,26 +137,16 @@ body {
 	border-image-slice: 1;
 	*/
 }
-.transparent {
-	opacity: 0.35;
-    filter: alpha(opacity=35); /* For IE8 and earlier */
+
+.one {
+	z-index: 50;
+	width: 100px;
+	height: 100px;
+	background: url('images/photos/by1.jpg');
 }
-#text {
+.one:hover {
 	z-index: 100;
-	position: absolute;
-	color: black;
-	font-size: 2vmin;
-	font-weight: bold;
-	left: 5%;
-	top: -7%;
-}
-p.small {
-	line-height: 50%;
-}
-.flip {
-	-ms-transform: rotate(180deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    transform: rotate(180deg);
+	background: url('images/photos/by2.jpg');
 }
 
 
