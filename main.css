@@ -6,7 +6,6 @@ body {
 	background: -moz-linear-gradient(-90deg, #ccccff, #9fe09f, #ffffcc); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(-90deg, #ccccff, #9fe09f, #ffffcc); /* Standard syntax */
 	
-	overflow: hidden;
 	position: relative;
 	z-index: 1;
 	
@@ -14,23 +13,21 @@ body {
 }
 
 /*
-body:after {
+#test{
 	background-color: rgba(255,255,255,.7);
 	width: 100%;
     content: "";
     display: block;
     height: 50%;
     position: absolute;
-    -webkit-transform: skewY(-4deg);
-    -moz-transform: skewY(-4deg);
-    -ms-transform: skewY(-4deg);
-    -o-transform: skewY(-4deg);
-    transform: skewY(-4deg);
+    -webkit-transform: skewY(3deg);
+    -moz-transform: skewY(3deg);
+    -ms-transform: skewY(3deg);
+    -o-transform: skewY(3deg);
+    transform: skewY(3deg);
     z-index: 2;
 }
 */
-
-
 
 /* save, old background */
 #codeholder {
@@ -62,7 +59,7 @@ body:after {
 	z-index: 100;
 	position: fixed;
     width: 100%;
-}
+} 
 #nav ul {
 	margin: 0px 0 0px 0;
 	padding: 10px 0 20px 0;
@@ -108,6 +105,19 @@ body:after {
 	
 	font-size: 20px;
 }
+#hometext2 {
+	background-color: rgba(255,255,255,.7);
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: -20px;
+	margin-bottom: 5%;
+	padding: 30px;
+	border-radius: 30px;
+	width: auto;
+	height: auto;
+	
+	font-size: 20px;
+}
 #credits {
 	background-color: rgba(255,255,255,.7);
 	margin-left: 15%;
@@ -133,7 +143,6 @@ body:after {
 	
 	font-size: 20px;
 }
-
 .mySlides {
 	display: none;
 	margin: auto;
@@ -195,3 +204,5 @@ p.small {
 body::-webkit-scrollbar {
     width: 0em;
 }
+
+
