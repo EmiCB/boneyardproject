@@ -77,6 +77,8 @@ body {
 	border: 0px 0 0px 0;
 	width: 100%;
 	z-index: 100;
+	
+	box-shadow: 0 2px 3px rgba(0,0,0,1);
 }
 #nav li {
 	display: inline;
@@ -168,8 +170,8 @@ body {
 .mySlides {
 	display: none;
 	margin: auto;
-
     width: 70%;
+	height: auto;
 	z-index: 5;
 }
 .w3-left, .w3-right, .w3-badge {
