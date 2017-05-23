@@ -4,6 +4,9 @@ html, body {
 	height: 100%; 
 	margin: 0; 
 }
+body > *{ 
+	flex-shrink: 0; 
+}
 body {
 	background: #33ccff; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(-90deg, #ccccff, #9fe09f, #ffffcc); /* For Safari 5.1 to 6.0 */
@@ -160,12 +163,12 @@ body {
 .animation {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 3%;
+
 }
 .mySlides {
 	display: none;
 	margin: auto;
-	margin-top: 3%;
+
     width: 70%;
 	z-index: 5;
 }
